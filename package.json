@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "Patrick Bucher",
   "license": "MIT",
-  "description": "Code Examples",
+  "description": "Mob Programming",
   "devDependencies": {
     "@eslint/js": "^9.24.0",
     "@types/jest": "^29.5.14",
