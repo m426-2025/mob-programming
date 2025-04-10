@@ -18,7 +18,7 @@ test("sum square of odd numbers", () => {
 test("multiply increment of even numbers", () => {
   // Arrange
   const xs: number[] = [1, 2, 3, 4, 5];
-  const expected: number = 4 * 16;
+  const expected: number = (2 + 1) * (4 + 1);
 
   // Act
   const actual = mutliplyIncrementOfEvenNumbers(xs);
