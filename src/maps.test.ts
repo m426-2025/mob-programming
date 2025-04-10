@@ -43,5 +43,7 @@ test("Formula 1 Ranking", () => {
   const actual = assignPoints(results, points1991to2002);
 
   // Assert
-  expect(actual).toBe(expected);
+  expect([...actual.entries()].sort()).toStrictEqual(
+    [...expected.entries()].sort(),
+  );
 });
