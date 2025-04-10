@@ -1,3 +1,3 @@
-export function fail() {
-  throw new Error("I'm a complete failure");
+export function fail(who: string) {
+  throw new Error(`${who} is a complete failure.`);
 }
