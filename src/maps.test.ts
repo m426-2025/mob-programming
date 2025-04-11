@@ -31,7 +31,6 @@ test("Formula 1 Ranking", () => {
   const expected: Map<string, number> = new Map([
     ["M. Schumacher", 20],
     ["R. Barrichello", 10],
-    ["M. Häkkinen", 10],
     ["M. Häkkinen", 9],
     ["D. Coulthard", 5],
     ["A. Wurz", 4],
