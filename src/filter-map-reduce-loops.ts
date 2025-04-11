@@ -1,12 +1,19 @@
 export function sumSquareOfOddNumbers(xs: number[]): number {
-  // TODO: refactor into single steps with type annotations
-  return xs
+    return xs
     .filter((x) => x % 2 == 1)
     .map((x) => x ** 2)
-    .reduce((acc, x) => acc + x);
+    .reduce((acc, x) => acc + x, 0);
 }
 
 export function mutliplyIncrementOfEvenNumbers(xs: number[]): number {
-  // TODO: implement using loops
-  return 0;
+    if (xs.length == 0) {
+        return 0;
+    }
+    let j = xs[0];
+    for (let x of xs) {
+        if (x % 2 == 0) {
+            j *= (x + 1);
+        }
+    }
+    return j;
 }
